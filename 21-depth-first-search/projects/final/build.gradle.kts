@@ -14,8 +14,8 @@ repositories {
 
 
 
-tasks.withType<KotlinCompile>() {
-    kotlinOptions.jvmTarget = "1.8"
+kotlin {
+    jvmToolchain(21)
 }
 
 application {
