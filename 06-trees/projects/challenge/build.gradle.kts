@@ -25,5 +25,5 @@ kotlin {
 }
 
 application {
-    mainClassName = "MainKt"
+
 }
